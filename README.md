@@ -2,7 +2,7 @@ Function Name
 nmatrix_stat_summary
 
 Description
-matrix_stat_summary is a versatile statistical summary function that accepts a flat or one-level nested list of numerical data and reshapes it into a 2D matrix of any specified shape. It automatically flattens one level of nesting in the input list to ensure correct reshaping. The function calculates a comprehensive set of statistical measures—such as mean, variance, standard deviation, min, max, sum, median, range, and mode—either across rows, columns, or the entire matrix, depending on the user-specified axis. The results can be returned flexibly as a Python dictionary, flattened list of labeled tuples, JSON string, or a Pandas DataFrame for further data analysis or visualization.
+matrix_stat_summary is a versatile statistical summary function that accepts a flat or one-level nested list of numerical data and reshapes it into a 2D matrix of any specified shape. It automatically flattens one level of nesting in the input list to ensure correct reshaping. The function calculates a comprehensive set of statistical measures, such as mean, variance, standard deviation, min, max, sum, median, range, and mode either across rows, columns, or the entire matrix, depending on the user-specified axis. The results can be returned flexibly as a Python dictionary, flattened list of labeled tuples, JSON string, or a Pandas DataFrame for further data analysis or visualization.
 
 What Makes It Unique?
 1. Automatic Nested List Flattening: Accepts both flat and one-level nested lists, automatically flattening nested input to simplify user data preparation.
